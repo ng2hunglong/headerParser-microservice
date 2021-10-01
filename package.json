@@ -1,0 +1,29 @@
+{
+  "name": "headerparser-microservice",
+  "version": "1.0.0",
+  "description": "API project for freeCodeCamp",
+  "main": "server.js",
+	"dependencies": {
+		"express": "^5.0.0-alpha.2",
+		"cors": "^2.8.1",
+		"dotenv": "^8.2.0"
+	},
+  "scripts": {
+		"start": "PORT=8000 node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ng2hunglong/headerParser-microservice.git"
+  },
+  "author": "ng2hunglong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ng2hunglong/headerParser-microservice/issues"
+  },
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express"
+	],
+  "homepage": "https://github.com/ng2hunglong/headerParser-microservice#readme"
+}
